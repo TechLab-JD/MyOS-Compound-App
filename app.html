@@ -1,0 +1,16 @@
+<div class="app-window" id="CompoundApp">
+  <div class="app-header"><span class="app-title">📈 Compound Interest</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="wrap">
+      <div class="row">Starting amount $<input id="ci-p" type="number" value="1000" style="width:90px"></div>
+      <div class="row">Annual rate <input id="ci-r" type="number" value="6" style="width:60px"> %</div>
+      <div class="row">Years <input id="ci-y" type="number" value="10" style="width:60px"></div>
+      <div class="row">Monthly add $<input id="ci-m" type="number" value="100" style="width:80px"></div>
+      <button id="ci-go">Calculate</button>
+      <div class="res" id="ci-fv">$0.00</div>
+      <div class="muted">Contributed: <span id="ci-c">$0</span> &nbsp;|&nbsp; Interest earned: <span id="ci-int">$0</span></div>
+      <div class="muted">Monthly compounding. An estimate, not financial advice.</div>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
